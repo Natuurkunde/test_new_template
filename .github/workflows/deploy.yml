@@ -44,7 +44,7 @@ jobs:
           python -m pip install jupyter ipykernel matplotlib numpy ipywidgets
           python -m ipykernel install --user --name python3 --display-name "Python 3"
       - name: Install MyST Markdown
-        run: npm install -g mystmd==1.11
+        run: npm install -g mystmd@1.11
 
       # - name: Build HTML (main)
       #   env:

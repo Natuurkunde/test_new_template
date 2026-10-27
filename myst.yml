@@ -27,7 +27,6 @@ extends:
   
 
 
-
 site:
   template: https://github.com/jupyter-book/myst-theme/releases/download/react-router-8-preview/book-theme.zip
   actions:

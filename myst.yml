@@ -23,12 +23,13 @@ extends:
   - toc.yml
   - export.yml
   - plugins.yml  
-  - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/style.yml?ref_type=heads
+  # - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/style.yml?ref_type=heads
   
 
 
 
 site:
+  template: https://github.com/jupyter-book/myst-theme/releases/download/react-router-8-preview/book-theme.zip
   actions:
     - title: Feedback
       url: https://github.com/FreekPols/Mechanica/issues
